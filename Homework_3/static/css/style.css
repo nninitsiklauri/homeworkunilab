@@ -1,0 +1,160 @@
+@font-face {
+    font-family: 'poppins';
+    src: url(../fonts/Poppins-Medium.ttf);
+}
+head {
+    background-color: white;
+}
+header * {
+    display: inline;
+}
+
+
+header li {
+font-size: 18px;
+font-style:normal;
+text-align: center;
+color: black;
+margin: 30px;
+}
+ul {
+    list-style-type: none ;
+    margin-inline: 645px;   
+    border-bottom: 1px solid black;
+
+}
+h1 {
+    font-size: 24px;
+    font-weight:bold;
+    color: black;
+    text-align: center;
+    margin-top: 72px;
+}
+body {
+    background-color: #F5F5F5;
+}
+
+.products-section {
+    padding: 170px 120px 200px 120px;
+}
+
+.product-wrapper  {
+    display: inline-block;
+}
+
+.product-content {
+    border: 1px solid black;
+    display: inline-block;
+    width: 333px;
+    padding: 15px 15px 25px 15px;
+}
+
+.product-content img {
+    width: 100%;
+}
+
+.product-content h3 {
+    margin: 15px 0;
+    line-height: 24px;
+    font-family: 'Dosis', sans-serif;
+    letter-spacing: 1px;
+    font-weight: bold;
+}
+.product-content p {
+    font-size: 14px;
+    line-height: 21px;
+    letter-spacing: .5px;
+    font-family: 'Itim', cursive;
+}
+
+.product-content h3,
+.product-content p {
+    margin-left: 10px;
+}
+
+.product-footer button {
+    font-size: 12px;
+    line-height: 18px;
+    padding: 6px 26px;
+    background-color: inherit;
+    border: 1px solid black;
+    border-radius: 4px;
+    cursor: pointer;
+}
+
+.product-footer {
+    color: white;
+}
+
+.product-footer {
+    text-align: right;
+    margin-top: 20px;
+}
+
+.product-wrapper.middle {
+    margin: 0 100px;
+}
+.list-section {
+    padding: 170px 120px 200px 120px;
+}
+
+.list-wrapper {
+    display: inline-block;
+}
+.list-content {
+    border: 1px solid black;
+    display: inline-block;
+    width: 333px;
+    padding: 15px 15px 25px 15px;
+    border-style: none;
+    font-size: 14px;
+    font-style: normal;
+}
+.list-wrapper.middle {
+    margin: 0 100px;
+}
+h3.about {
+        font-size: 40px;
+        font-weight:bold;
+        color:#7D0000;
+        text-align: center;
+        margin-top: 112px;
+    }
+p.about {
+        font-size: 25px;
+        font-weight:bold;
+        color: black;
+        text-align: center;
+        margin-top: 118px;
+        display: inline-block;
+    }
+    h4.about {
+        font-size: 18px;
+        font-weight: lighter;
+        font-style: italic;
+        color: black;
+        display: inline;
+    }
+    h4.about {
+        margin-top: 80px;
+    }
+    h3.contact {
+        font-size: 40px;
+        font-weight:bold;
+        color:#7D0000;
+        text-align: center;
+        margin-top: 112px;
+
+    }
+    p.contact {
+        font-size: 25px;
+        font-weight:bold;
+        color: black;
+        text-align: left;
+        margin-top: 32px;
+
+    }
+    
+
+
+
